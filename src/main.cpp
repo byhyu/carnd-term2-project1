@@ -30,6 +30,7 @@ int main()
 {
   uWS::Hub h;
 
+    cout << "create a EKF instance (main):" << endl;
   // Create a Kalman Filter instance
   FusionEKF fusionEKF;
 
